@@ -4,7 +4,7 @@ import loginImg from "../assets/user.png"
 
 const Navbar = () => {
     return (
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center bg-slate-500'>
             <div className=''></div>
             <div className="nav flex justify-between items-center gap-4">
                 <NavLink to="/">Home</NavLink>
