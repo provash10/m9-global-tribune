@@ -1,0 +1,7 @@
+1. react router
+2. tailwind
+3. daisyui
+4. google font-poppins
+5. date-fns
+6. React Fast Marquee
+
