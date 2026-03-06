@@ -4,4 +4,34 @@
 4. google font-poppins
 5. date-fns
 6. React Fast Marquee
+7. react icons
+
+
+=========================
+Animation & Motion:
+
+Framer Motion (smooth page transitions & micro-interactions)
+GSAP (advanced scroll animations)
+Lottie (lightweight vector animations)
+UI Components:
+
+Shadcn UI ba Magic UI (modern component library)
+Aceternity UI (trendy animated components)
+Radix UI (accessible primitives)
+Visual Effects:
+
+Three.js ba Spline (3D elements jodi thake)
+Canvas API (custom graphics)
+CSS animations & keyframes
+Design System:
+
+Tailwind CSS (utility-first styling)
+Custom gradient effects
+Glassmorphism effects
+Smooth scroll libraries (Locomotive Scroll ba Lenis)
+Typography & Icons:
+
+Google Fonts ba custom fonts
+Lucide Icons ba Heroicons
+Animated text effects
 

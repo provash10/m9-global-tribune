@@ -18,3 +18,17 @@
   --color-base-300: #e7e7e7;
   --color-accent: #706f6f;
 }
+
+/* a.active{
+  @apply bg-green-500;
+} */
+
+
+.btn {
+  @apply px-2 py-1 bg-orange-500 text-white rounded-md
+         hover:bg-orange-600 transition;
+}
+.click-btn {
+  @apply px-2 py-1 bg-slate-950 text-white rounded-md
+         hover:bg-green-600 transition;
+}
