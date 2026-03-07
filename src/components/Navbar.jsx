@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router';
+import { Link, NavLink } from 'react-router';
 // import loginImg from "../assets/user.png"
 import { FaUserCircle } from 'react-icons/fa';
 
@@ -15,7 +15,7 @@ const Navbar = () => {
             <div className="login-btn flex justify-between items-center gap-4 px-2">
                 {/* <img src={loginImg} alt="login img" /> */}
                 <FaUserCircle size={40} />
-                <button className='click-btn'>Login</button>
+                <Link to="/auth/login" className='click-btn'>Login</Link>
             </div>
         </div>
     );
