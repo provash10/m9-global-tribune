@@ -5,6 +5,7 @@
 5. date-fns
 6. React Fast Marquee
 7. react icons
+8. npm install firebase
 
 
 =========================
