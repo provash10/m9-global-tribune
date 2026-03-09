@@ -1,8 +1,9 @@
 import React from 'react';
 import { FaStar, FaEye, FaBookmark, FaShareAlt } from 'react-icons/fa';
+import { Link } from 'react-router';
 
 const NewsCard = ({ news }) => {
-    const { author, title, image_url, details, rating, total_view, tags } = news;
+    const {id, author, title, image_url, details, rating, total_view, tags } = news;
 
     return (
         <div className='bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 overflow-hidden'>
@@ -45,6 +46,9 @@ const NewsCard = ({ news }) => {
                 src={image_url}
                 alt={title}
                 className='w-full h-64 object-cover'
+                onError={(e) => {
+                    e.target.src = 'https://via.placeholder.com/660x372?text=Image+Not+Available';
+                }}
             />
 
             {/* Tags */}
@@ -65,9 +69,9 @@ const NewsCard = ({ news }) => {
                                 <p className='text-gray-700 text-sm leading-relaxed mb-3'>
                                     {details.slice(0, 150)}...
                                 </p>
-                                <button className='text-orange-500 font-semibold text-sm hover:text-orange-600'>
+                                <Link to={`/news-details/${id}`} className='text-orange-500 font-semibold text-sm hover:text-orange-600'>
                                     Read More
-                                </button>
+                                </Link>
                             </>
                         ) : (
                             details

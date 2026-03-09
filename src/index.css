@@ -29,6 +29,6 @@
          hover:bg-orange-600 transition;
 }
 .click-btn {
-  @apply px-2 py-1 bg-slate-950 text-white rounded-md
+  @apply px-4 py-1 bg-slate-950 text-white rounded-md
          hover:bg-green-600 transition;
 }
