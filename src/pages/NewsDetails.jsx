@@ -3,6 +3,7 @@ import Header from '../components/Header';
 import RightAside from '../components/homelayouts/RightAside';
 import NewsDetailsCard from '../components/NewsDetailsCard';
 import { useLoaderData, useParams } from 'react-router';
+import Navbar from '../components/Navbar';
 
 const NewsDetails = () => {
     const data= useLoaderData();
@@ -21,6 +22,7 @@ const NewsDetails = () => {
         <div>
             <header className='py-3'>
                 <Header></Header>
+                <Navbar></Navbar>
             </header>
 
             <main className='w-11/12 mx-auto grid grid-cols-12 gap-5 py-10'>
